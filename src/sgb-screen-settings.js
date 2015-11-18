@@ -4,5 +4,5 @@ angular.module('sgb-screen-settings', ['megazord'])
     .controller('sgb-screen-settings-controller', ['$scope', '_router', '_screen', '_screenParams', '_data', function ($scope, _router, _screen, _screenParams, _data) {
         _screen.initialize($scope, _screenParams);
 
-        //Add your controller logic here.
+        $scope.categories = _screenParams.categories;
     }]);

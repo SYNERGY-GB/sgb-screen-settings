@@ -1,4 +1,13 @@
 {
   "hello_world": "Hola Mundo!",
-  "language_setting" : "Cambiar idioma"
+  "language_setting" : "Cambiar idioma",
+  "preferences_setting" : "Preferencias",
+  "help_setting" : "Ayuda",
+  "english" : "Ingles",
+  "spanish" : "Espanol",
+  "german" : "Aleman",
+  "personal_info" : "Informacion Personal",
+  "range": "Rango de Busqueda",
+  "notifications" : "Notificaciones",
+  "tutorial" : "Tutorial"
 }

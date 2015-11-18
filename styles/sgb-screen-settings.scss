@@ -6,3 +6,18 @@ $myColor: #00dda0;
 .customHeader {
   color: $myColor;
 }
+
+.list-restriction {
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+}
+
+.list-restriction:nth-child(n+2){
+  border-top: 1px solid;
+}
+
+.list-style {
+
+
+}
