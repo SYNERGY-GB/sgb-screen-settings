@@ -10,13 +10,13 @@ config = {
     {
       "category" : "preferences_setting",
       "icon" : "ion-wrench",
-      "checkbox" : "@radio",
+      "templateType" : "@radio",
       "options" : ["personal_info","range","notifications"]
     },
     {
       "category" : "help_setting",
       "icon" : "ion-help",
-      "checkbox" : "@radio",
+      "templateType" : "@radio",
       "options" : ["tutorial"]
     }
   ]
