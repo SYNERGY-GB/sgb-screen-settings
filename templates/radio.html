@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="item item-text-wrap">
+    <i ng-class="bindTo.icon ? bindTo.icon : 'ion-gear-a'"></i>
+    {{bindTo.category | translate}}
+  </div>
+</div>
+<ion-list class="list-style">
+  <ion-radio ng-repeat="option in bindTo.options" ng-model="choice" ng-value="option" class="list-restriction">
+    {{option | translate}}
+  </ion-radio>
+</ion-list>
